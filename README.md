@@ -63,22 +63,35 @@ BMS  ←(BLE)→  ESP32  ←(Serial)→  Python Logger  →  CSV (microgrid_log_
 ---
 
 ## 4. Repository Structure
-
+```
 Microgrid_TUK/
-├── src/                  # ESP32 펌웨어 (main.cpp)
-├── logger/               # 데이터 수집 (Python scripts)
+├── src/                  # ⚙️ ESP32 펌웨어 (main.cpp)
+│   └── main.cpp
+│
+├── logger/               # 🧾 데이터 수집 (Python scripts)
 │   ├── logger.py
 │   └── KMA_API.py
+│
 ├── data/                 # 수집 및 가공된 CSV 데이터
-├── analysis/             # 데이터 분석 코드 (Jupyter / Python)
+│   ├── microgrid_log_20250928_1817.csv
+│   ├── microgrid_weather_subset.csv
+│   └── microgrid_merged.csv
+│
+├── analysis/             #� 데이터 분석 코드 (Jupyter / Python)
 │   ├── microgrid_analysis.ipynb
 │   └── PV_vs_GHI_plot.py
+│
 ├── docs/                 # 논문 및 이미지 자료
 │   ├── thesis_draft.md
 │   ├── figures/
+│   │   ├── Fig1_PV_Voltage_Current.png
+│   │   ├── Fig2_Battery_Voltage_Current.png
+│   │   ├── Fig3_Bus_Voltage_Stability.png
+│   │   └── Fig4_Load_Response.png
 │   └── README.md
-└── README.md             # (현재 파일)
-
+│
+└── README.md             # 프로젝트 개요 (현재 파일)
+```
 ---
 
 ## 5. How to Run
@@ -121,7 +134,7 @@ jupyter notebook analysis/microgrid_analysis.ipynb
 ![Fig.3 Bus Voltage Stability](docs/figures/Fig.3_Comparison_of_Bus_Voltage_Stability.png)
 
 ### Fig. 4. Load Response
-![Fig.4 Load Response](docs/figures/Fig4_Load_Response_According_to_Operating_Time_Sessions.png)
+![Fig.4 Load Response](docs/figures/Fig.4_Load_Response_According_to_Operating_Time_Sessions.png)
 
 ---
 
