@@ -115,13 +115,13 @@ jupyter notebook analysis/microgrid_analysis.ipynb
 ![Fig.1 PV Voltage & Current](docs/figures/Fig.1_PV_Module_Voltage_and_Current_Characteristics.png)
 
 ### Fig. 2. Battery Voltage & Current
-![Fig.2 Battery Voltage & Current](docs/figures/Fig._2_Battery_Module_Voltage_and_Current_Characteristics.png)
+![Fig.2 Battery Voltage & Current](docs/figures/Fig.2_Battery_Module_Voltage_and_Current_Characteristics.png)
 
 ### Fig. 3. Bus Voltage Stability
-![Fig.3 Bus Voltage Stability](docs/figures/Fig._3_Comparison_of_Bus_Voltage_Stability.png)
+![Fig.3 Bus Voltage Stability](docs/figures/Fig.3_Comparison_of_Bus_Voltage_Stability.png)
 
 ### Fig. 4. Load Response
-![Fig.4 Load Response](docs/figures/Fig._4_Load_Response_According_to_Operating_Time_Sessions.png)
+![Fig.4 Load Response](docs/figures/Fig4_Load_Response_According_to_Operating_Time_Sessions.png)
 
 ---
 
