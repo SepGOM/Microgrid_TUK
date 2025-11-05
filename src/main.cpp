@@ -48,7 +48,7 @@ void softStartPWM(int channel, int maxDuty, float currentThreshold_mA, int stepD
 // BLE Notify 콜백 (BMS 데이터 수신 시 호출)
 class BMSNotifyCallback : public NimBLENotifyCallback {
   void onNotify(NimBLERemoteCharacteristic* pChr, uint8_t* pData, size_t length, bool isNotify) override {
-    // JBD BMS 데이터 포맷 해석 (간단 예시)
+    // JBD BMS 데이터 포맷 해석
     if (length >= 13 && pData[0] == 0xDD) {
       uint16_t v = (pData[4] << 8) | pData[5];
       uint16_t c = (pData[6] << 8) | pData[7];
