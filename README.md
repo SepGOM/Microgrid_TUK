@@ -1,5 +1,5 @@
 # Control and Operation Analysis of a DC Standalone Microgrid System
->  DC 독립형 마이크로그리드의 제어 및 동작 특성 연구  
+> DC 독립형 마이크로그리드의 제어 및 동작 특성 연구  
 > by **Hunhui Kim** (Energy & Electrical Engineering, TUK)
     **Sumin Lee** (Energy & Electrical Engineering, TUK)
     **Kyungmo Park** (Energy & Electrical Engineering, TUK)
@@ -10,9 +10,9 @@
 
 ## 1. Project Overview
 
-본 연구는 **DC 독립형 마이크로그리드 시스템의 제어 및 동작 특성**을 실험적으로 검증하기 위해 수행되었습니다.  
+본 연구는 **DC 독립형 마이크로그리드 시스템의 제어 및 동작 특성**을 실험적으로 검증하기 위해 수행.  
 태양광 발전, 배터리 저장, 부하 제어의 상호작용을 ESP32 기반 제어 시스템으로 구현하고,  
-센서 데이터 및 기상 데이터를 통합하여 **전력 흐름 안정성**과 **제어 응답성**을 분석하였습니다.
+센서 데이터 및 기상 데이터를 통합하여 **전력 흐름 안정성**과 **제어 응답성**을 분석하였음.
 
 ---
 
@@ -40,15 +40,17 @@
 ## 3. Data Description
 
 ### Data Flow
+```
 BMS  ←(BLE)→  ESP32  ←(Serial)→  Python Logger  →  CSV (microgrid_log_YYYYMMDD.csv)
-↓
-+ KMA Weather Data (KMA_API.py)
-↓
-→  Merged Dataset for Analysis
+                                                ↓
+                                                 + KMA Weather Data (KMA_API.py)
+                                                ↓
+                                                 → Merged Dataset for Analysis
+```
 
 ### Weather Data
 본 연구에 사용된 기상 데이터는 **기상청(KMA) 공개자료**를 기반으로 하였으며,  
-실제 1시간 단위 자료를 시뮬레이션 목적에 맞게 **1초 단위로 보간 및 확률적 변동을 추가**하여 구성하였습니다.  
+실제 1시간 단위 자료를 시뮬레이션 목적에 맞게 **1초 단위로 보간 및 확률적 변동을 추가**하여 구성.  
 
 > **기상자료 출처:** [기상청 기상자료개방포털](https://data.kma.go.kr)
 
