@@ -60,7 +60,6 @@ BMS  ←(BLE)→  ESP32  ←(Serial)→  Python Logger  →  CSV (microgrid_log_
 | `microgrid_log_20250928.csv` | ESP32 로그 데이터 (전압·전류·SOC) |
 | `microgrid_weather_subset.csv` | 기상 데이터 (기온·일사량·하늘상태 등) |
 | `microgrid_merged.csv` | 병합 데이터셋 (기상+전력 흐름) |
-| `microgrid_merged_weather_removed.csv` | 분석용 정제 데이터셋 |
 
 ---
 
