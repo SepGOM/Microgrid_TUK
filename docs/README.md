@@ -1,7 +1,7 @@
 # Microgrid_TUK Documentation
 
-이 폴더는 **DC 독립형 마이크로그리드 제어 시스템** 연구를 위한  
-문서 및 참고 자료를 포함하고 있습니다.
+해당 폴더는 **DC 독립형 마이크로그리드 제어 시스템** 연구를 위한  
+문서 및 참고 자료를 포함하고 있음.
 
 ---
 
@@ -9,7 +9,6 @@
 
 | 파일명 | 설명 |
 |--------|------|
-| `Control and Operation Analysis of a DC Standalone Microgrid_20251106` | 논문 (Introduction, Method, Results, Discussion 등 포함) |
 | `figures/` | 분석 그래프 / 다이얼로그 이미지 |
 | `README.md` | 이 문서 폴더의 인덱스 (현재 파일) |
 
@@ -22,7 +21,7 @@
 - **Fig. 3** 버스 전압 안정성 비교  
 - **Fig. 4** 부하 대응성 검증  
 
-모든 그래프는 `analysis/` 폴더에서 생성된 결과를 `docs/figures/`로 복사하여 관리합니다.
+모든 그래프는 `analysis/` 폴더에서 생성된 결과를 `docs/figures/`로 복사하여 관리한다.
 
 ---
 
@@ -40,13 +39,12 @@
 
 ---
 
-## 작성자 및 버전
+## 작성자
 - 작성자: **Su Min Lee (Energy & Electrical Engineering, TUK)**, 
         **Kyung Mo Park (Energy & Electrical Engineering, TUK)**
         **Byung Hoon Lee  (Energy & Electrical Engineering, TUK)**
         **Hun Hui Kim (Energy & Electrical Engineering, TUK)**
 - 지도교수: **Prof. Paul Jang**
-- 버전: v1.0 (2025-11-06)
 
 ---
 > 본 문서는 GitHub 저장소의 `/docs/` 폴더 내에서  
