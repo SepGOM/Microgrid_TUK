@@ -66,10 +66,10 @@ BMS  ←(BLE)→  ESP32  ←(Serial)→  Python Logger  →  CSV (microgrid_log_
 ## 4. Repository Structure
 ```
 Microgrid_TUK/
-├── src/                  # ⚙️ ESP32 펌웨어 (main.cpp)
+├── src/                  # ESP32 펌웨어 (main.cpp)
 │   └── main.cpp
 │
-├── logger/               # 🧾 데이터 수집 (Python scripts)
+├── logger/               # 데이터 수집 (Python scripts)
 │   ├── logger.py
 │   └── KMA_API.py
 │
@@ -78,12 +78,10 @@ Microgrid_TUK/
 │   ├── microgrid_weather_subset.csv
 │   └── microgrid_merged.csv
 │
-├── analysis/             #� 데이터 분석 코드 (Jupyter / Python)
-│   ├── microgrid_analysis.ipynb
-│   └── PV_vs_GHI_plot.py
+├── analysis/             # 데이터 분석 코드 (Jupyter / Python)
+│   └── microgrid_analysis.ipynb
 │
-├── docs/                 # 논문 및 이미지 자료
-│   ├── thesis_draft.md
+├── docs/                 # 이미지 자료
 │   ├── figures/
 │   │   ├── Fig1_PV_Voltage_Current.png
 │   │   ├── Fig2_Battery_Voltage_Current.png
