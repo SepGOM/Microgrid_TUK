@@ -35,10 +35,6 @@
 
 ---
 
-## 데이터셋 구조
-
----
-
 ## 작성자
 - 작성자: **Su Min Lee (Energy & Electrical Engineering, TUK)**, 
         **Kyung Mo Park (Energy & Electrical Engineering, TUK)**
